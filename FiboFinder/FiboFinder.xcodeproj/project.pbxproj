@@ -21,6 +21,7 @@
 		726CD3E9193D1EA3003902C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 726CD3E7193D1EA3003902C0 /* InfoPlist.strings */; };
 		726CD3F6193D6905003902C0 /* FISFiboFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CD3F5193D6905003902C0 /* FISFiboFinder.m */; };
 		726CD3F8193D695C003902C0 /* FISFiboFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CD3F7193D695C003902C0 /* FISFiboFinderSpec.m */; };
+		72AE7E62193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE7E61193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		726CD3F4193D6905003902C0 /* FISFiboFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISFiboFinder.h; sourceTree = "<group>"; };
 		726CD3F5193D6905003902C0 /* FISFiboFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinder.m; sourceTree = "<group>"; };
 		726CD3F7193D695C003902C0 /* FISFiboFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinderSpec.m; sourceTree = "<group>"; };
+		72AE7E61193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinderAdvancedSpec.m; sourceTree = "<group>"; };
 		8141C2FDB09D4EB48FEBDEB7 /* Pods-FiboFinderTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiboFinderTests.xcconfig"; path = "Pods/Pods-FiboFinderTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 		726CD3E4193D1EA3003902C0 /* FiboFinderTests */ = {
 			isa = PBXGroup;
 			children = (
+				72AE7E61193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m */,
 				726CD3F7193D695C003902C0 /* FISFiboFinderSpec.m */,
 				726CD3E5193D1EA3003902C0 /* Supporting Files */,
 			);
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726CD3F8193D695C003902C0 /* FISFiboFinderSpec.m in Sources */,
+				72AE7E62193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
