@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 FIS. All rights reserved.
 //
 
-#import "FiboFinder.h"
+#import "FISFiboFinder.h"
 
-@implementation FiboFinder
+@implementation FISFiboFinder
 
 //define methods here
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FiboFinder : NSObject
+@interface FISFiboFinder : NSObject
 
 //declare methods here
 
