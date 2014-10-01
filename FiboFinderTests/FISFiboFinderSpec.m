@@ -10,7 +10,7 @@
 #import "FISFiboFinder.h"
 #define EXP_SHORTHAND
 #import "Expecta.h"
-#import "KIF.h"
+//#import "KIF.h"
 #import "Swizzlean.h"
 
 SpecBegin(FISFiboFinder)
