@@ -10,7 +10,7 @@ Solve for fibonacci numbers using loops, conditionals and arrays.
 # Instructions: 
 Create a method that returns the nth number of the fibonacci sequence
   1. Open up the `.xcworkspace` file
-  2. Check out the tests. Your goal is to create a [fibonacci number finder](http://www.mathsisfun.com/definitions/fibonacci-sequence.html). Here are the rules of fibonacci numbers:
+  2. Check out the tests. Your goal is to create a [fibonacci number](http://www.mathsisfun.com/numbers/fibonacci-sequence.html) finder. Here are the rules of fibonacci numbers:
     - The fibonacci sequence = 0,1,1,2,3,5,8,13 etc 
     - For our purposes if n = 0 the element is 0 (the first number), if n = 1 the element is 1, n = 2 the element is 1.
 
