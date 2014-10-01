@@ -8,7 +8,7 @@ Solve for fibonacci numbers using loops, conditionals and arrays.
 
 # Skills: arrays, methods, conditional logic
 # Instructions: 
-Create a method that returns the nth number of the fibonacci sequence
+Create a method that returns the nth number of the fibonacci sequence; i.e. the 0th number in the sequence is returned when the input is 0 and the 5th number in the sequence is returned when the input is 5
   1. Open up the `.xcworkspace` file
   2. Check out the tests. Your goal is to create a [fibonacci number](http://www.mathsisfun.com/numbers/fibonacci-sequence.html) finder. Here are the rules of fibonacci numbers:
     - The fibonacci sequence = 0,1,1,2,3,5,8,13 etc 
