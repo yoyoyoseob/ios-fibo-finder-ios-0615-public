@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5A7DF16FB5F0DF28020071 /* Pods-FiboFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiboFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FiboFinderTests/Pods-FiboFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BBD61CEA3D64324993915D4 /* libPods-FiboFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FiboFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		726CD3C2193D1EA3003902C0 /* FiboFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiboFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726CD3C5193D1EA3003902C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,7 +56,7 @@
 		726CD3F5193D6905003902C0 /* FISFiboFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinder.m; sourceTree = "<group>"; };
 		726CD3F7193D695C003902C0 /* FISFiboFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinderSpec.m; sourceTree = "<group>"; };
 		72AE7E61193E6B0E00A26365 /* FISFiboFinderAdvancedSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFiboFinderAdvancedSpec.m; sourceTree = "<group>"; };
-		8141C2FDB09D4EB48FEBDEB7 /* Pods-FiboFinderTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiboFinderTests.xcconfig"; path = "Pods/Pods-FiboFinderTests.xcconfig"; sourceTree = "<group>"; };
+		E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiboFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiboFinderTests/Pods-FiboFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +91,7 @@
 				726CD3E4193D1EA3003902C0 /* FiboFinderTests */,
 				726CD3C4193D1EA3003902C0 /* Frameworks */,
 				726CD3C3193D1EA3003902C0 /* Products */,
-				8141C2FDB09D4EB48FEBDEB7 /* Pods-FiboFinderTests.xcconfig */,
+				9DDBE56A0E0C117E3D9BC1C7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +157,15 @@
 				726CD3E7193D1EA3003902C0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DDBE56A0E0C117E3D9BC1C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A7DF16FB5F0DF28020071 /* Pods-FiboFinderTests.debug.xcconfig */,
+				E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +289,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-FiboFinderTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiboFinderTests/Pods-FiboFinderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -432,7 +442,7 @@
 		};
 		726CD3F2193D1EA3003902C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8141C2FDB09D4EB48FEBDEB7 /* Pods-FiboFinderTests.xcconfig */;
+			baseConfigurationReference = 2A5A7DF16FB5F0DF28020071 /* Pods-FiboFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -455,7 +465,7 @@
 		};
 		726CD3F3193D1EA3003902C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8141C2FDB09D4EB48FEBDEB7 /* Pods-FiboFinderTests.xcconfig */;
+			baseConfigurationReference = E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
 				FRAMEWORK_SEARCH_PATHS = (
