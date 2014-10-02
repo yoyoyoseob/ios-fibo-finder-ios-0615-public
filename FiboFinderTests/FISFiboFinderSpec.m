@@ -6,6 +6,7 @@
 //  Copyright 2014 FIS. All rights reserved.
 //
 
+#ifndef ADVANCED
 #import "Specta.h"
 #import "FISFiboFinder.h"
 #define EXP_SHORTHAND
@@ -46,3 +47,4 @@ describe(@"FISFiboFinder", ^{
 });
 
 SpecEnd
+#endif
