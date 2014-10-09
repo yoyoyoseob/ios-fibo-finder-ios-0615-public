@@ -23,5 +23,5 @@ Create a method that returns the nth number of the fibonacci sequence; i.e. the 
     ```
 
 2. To prepare for the next step, go to your test target, called FiboFinderTests, and find build settings. type 'preprocessor macros' into the search bar on the upper right, and double click the blank line next to 'Preprocessor Macros' and add 'ADVANCED'. Don't be confused by the attached image, instead of `PRIME2000`, that's where you'll be putting `ADVANCED`. 
-![preprocessor_skitch](preprocessor_macro_ss2.png)
+![preprocessor_skitch](http://ironboard-curriculum-content.s3.amazonaws.com/iOS/preprocessor_macro_ss2.png)
 3. Create a method (and a helper method if needed) to return the nth number of the fibonacci sequence using recursion instead of a loop.
