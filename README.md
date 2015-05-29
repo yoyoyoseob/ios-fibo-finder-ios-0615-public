@@ -23,15 +23,17 @@ and begins:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
 
-Don't get intimidated by the math! Whether or not you recall learning about the Fibonacci Sequence in high school or college math class—if you've ever seen a snail shell or a pine cone you're already familiar with it. One of the amazing aspects of the Fibonacci Sequence (and much of mathematics as a whole) is how prevalent it can be found in nature. Snail shells follow the Fibonacci Spiral (a geometric representation of the number sequence). Pine cones and sun flowers display the shape of Vogel's model, which relies on numbers in the Fibonacci Sequence.
+What the above information means is that, following the two intial values (in our case, `0` and `1`), each number is the sum of the two numbers preceding it in the sequence. If `0` is the zeroeth number (**Hint:** remember that arrays start at index `0`), then the first number is `1`, the second number is `0 + 1 = 1`, the third `1 + 1 = 2`, the fourth `2 + 3 = 5`, the fifth `3 + 5 = 8`, and so on into infinity.
 
-Take a moment now (or save it for a study break later) to read about the history of the Fibonacci Sequence (it's oldest known roots are actually in Sanskrit prosidy in India as far back as 200 BC) and look at some nature photography detailing Fibonacci geometry.
+Don't get intimidated by the math! Whether or not you recall learning about the Fibonacci Sequence in high school or college math class—if you've ever seen a snail shell or a pine cone you're already familiar with it. One of the amazing aspects of the Fibonacci Sequence (and of much of mathematics as a whole) is how prevalent it can be found in nature. Snail shells follow the Fibonacci Spiral (a geometric representation of the number sequence), while pine cones and sun flowers display the shape of Vogel's model (which relies on numbers in the Fibonacci Sequence).
+
+Take a moment now (or save it for a study break later) to read about the history of the Fibonacci Sequence (its oldest known anthropological roots are actually in Sanskrit prosidy in India dating as far back as 200 BC) and look at some nature photography detailing Fibonacci geometry. If you're interested in some numerology, Arthur Benjamin's TED Talk is a six-minute video detailing how the Fibonacci Spiral and the Golden Ratio (1.618033...) are derived from the sequence.
  
 Overview & history on [Wikipedia] (http://en.wikipedia.org/wiki/Fibonacci_number)
 
 Photography: [InspirationGreen](http://www.inspirationgreen.com/fibonacci-sequence-in-nature.html)
 
-TED Talk: [Arthur Benjamin](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
+TED Talk (6 min 25 sec): [Arthur Benjamin](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
 
 
 ## Instructions
