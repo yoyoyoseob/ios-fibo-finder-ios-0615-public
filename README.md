@@ -37,13 +37,13 @@ TED Talk: [Arthur Benjamin](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
 ## Instructions
 
   1. Open the `*.xcworkspace` file in the lab's folder. (This lab includes frameworks for the tests which aren't directly included in the `*.xcodeproj` file, so make sure to use the workspace! You should see two blue icons in the navigator window labled "FiboFinder" and "Pods". We'll teach you all about using Cocoa Pods later in the course, but for now just make sure that you see them).
-  2. Write an instance method in `FISFiboFinder` titled `findFiboNumber:` that takes in one `NSInteger` as an argument and returns an `NSInteger` result. (<b>HINT:</b> the argument integer is equivalent to the <i>n</i> in the Fibonacci formula, and the result integer is <i>n</i>'s value.)
+  2. Write an instance method in `FISFiboFinder` titled `fibonacciNumberAtIndex:` that takes in one `NSUInteger` as an argument and returns an `NSUInteger` result. (<b>HINT:</b> the argument integer is equivalent to the <i>n</i> in the Fibonacci formula, and the result integer is <i>n</i>'s value.)
   3. Take a look at the unit tests. These are the files in the "FiboFinderTests" folder named `<#className#>Spec`. It's totally normal for these files to still look confusing, but try to get a sense of understanding the expected results for the input values.
-  4. Run the tests by pressing `⌘U`. If any of them fail, try rewriting your `findFiboNumber:` method so that they pass. Ask for help if you get stuck!
+  4. Run the tests by pressing `⌘U`. If any of them fail, try rewriting your `fibonacciNumberAtIndex:` method so that they pass. Ask for help if you get stuck!
 
 
 ## Advanced
-1. Create a new Cocoa Touch Class titled `FISFiboFinderAdvanced` which inherits from NSObject. Declare the instance method `findFiboNumber:` for this class. It should also take one `NSInteger` as an argument and return an `NSInteger`.
+1. Create a new Cocoa Touch Class titled `FISFiboFinderAdvanced` which inherits from NSObject. Declare the instance method `fibonacciNumberAtIndex:` for this class. It should also take one `NSUInteger` as an argument and return an `NSUInteger`.
 
 2. To prepare for the next step, 
 	- go to your test target `FiboFinderTests` and find the Build Settings. 
@@ -51,4 +51,4 @@ TED Talk: [Arthur Benjamin](https://www.youtube.com/watch?v=SjSHVDfXHQ4)
 	- Double-click on the line containing the `Preprocessor Macros` label.
 	- Press the `+` button in the lower left corner of this box and type in `ADVANCED`. (<b>NOTE:</b> The attached image incorrectly reads `PRIME2000` because it is from a later lab. Type in `ADVANCED` for this lab.)
 ![preprocessor_skitch](http://ironboard-curriculum-content.s3.amazonaws.com/iOS/preprocessor_macro_ss2.png)
-3. Write out the method body for `findFiboNumber:` which returns the Nth number of the fibonacci sequence using recursion instead of a loop.
+3. Write out the method body for `fibonacciNumberAtIndex:` which returns the Nth number of the fibonacci sequence using recursion instead of a loop.
