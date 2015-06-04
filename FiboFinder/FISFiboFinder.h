@@ -12,4 +12,6 @@
 
 //declare methods here
 
+-(NSUInteger)fibonacciNumberAtIndex:(NSUInteger)nthTerm;
+
 @end

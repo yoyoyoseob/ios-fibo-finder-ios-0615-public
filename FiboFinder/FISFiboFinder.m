@@ -12,4 +12,22 @@
 
 //define methods here
 
+
+-(NSUInteger)fibonacciNumberAtIndex:(NSUInteger)nthTerm
+{
+    NSUInteger firstValue = 0;
+    NSUInteger secondValue = 1;
+    NSUInteger sum = 0;
+    
+    NSMutableArray *fibonacciArray = [[NSMutableArray alloc] initWithObjects:@"0", @"1", nil];
+    
+    for (NSUInteger i = 0; i < nthTerm; i++){
+        sum = firstValue + secondValue;
+        firstValue = secondValue;
+        secondValue = sum;
+        [fibonacciArray addObject: [NSString stringWithFormat:@"%lu", sum]];
+    }
+    return [fibonacciArray[nthTerm] integerValue];
+}
+
 @end
